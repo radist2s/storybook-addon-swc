@@ -5,9 +5,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/storybook-addon-swc.cjs.js",
-  "module": "dist/storybook-addon-swc.esm.js",
-  "types": "dist/storybook-addon-swc.cjs.d.ts",
+  "main": "dist/radist2s-storybook-addon-swc.cjs.js",
+  "module": "dist/radist2s-storybook-addon-swc.esm.js",
+  "types": "dist/radist2s-storybook-addon-swc.cjs.d.ts",
   "files": [
     "src",
     "dist",
