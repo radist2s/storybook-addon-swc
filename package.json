@@ -1,7 +1,10 @@
 {
-  "name": "storybook-addon-swc",
+  "name": "@radist2s/storybook-addon-swc",
   "version": "1.1.9",
   "description": "Storybook add-on to enable SWC builds.",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/storybook-addon-swc.cjs.js",
   "module": "dist/storybook-addon-swc.esm.js",
   "types": "dist/storybook-addon-swc.cjs.d.ts",
@@ -24,9 +27,9 @@
     "nextjs",
     "next"
   ],
-  "homepage": "https://github.com/Karibash/storybook-addon-swc",
+  "homepage": "https://github.com/radist2s/storybook-addon-swc",
   "bugs": {
-    "url": "https://github.com/Karibash/storybook-addon-swc/issues"
+    "url": "https://github.com/radist2s/storybook-addon-swc/issues"
   },
   "storybook": {
     "displayName": "SWC",
@@ -40,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Karibash/storybook-addon-swc.git"
+    "url": "git+https://github.com/radist2s/storybook-addon-swc.git"
   },
   "license": "MIT",
-  "author": "Karibash",
+  "author": "radist2s",
   "scripts": {
     "prepare": "simple-git-hooks",
     "build:watch": "preconstruct watch",
